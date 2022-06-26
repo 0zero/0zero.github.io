@@ -1,1 +1,4 @@
-# 0zero.github.io
+# Japheth Yates
+
+## Bio
+
