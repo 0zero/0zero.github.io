@@ -1,3 +1,16 @@
 theme: jekyll-theme-cayman
 title: Jaf's homepage
 description: Testing
+
+author:
+  name: Japheth Yates
+  bio: Software Developer
+  location: London, UK
+  email: your@email.com
+  social:
+    - title: GitHub
+      url: https://github.com/0zero
+    - title: Medium
+      url: https://medium.com/@japheth.yates
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/japhethyates/
