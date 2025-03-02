@@ -124,17 +124,6 @@ export default function AcademicPage() {
                   </p>
                 </div>
               </div>
-
-              <div className="rounded-lg bg-black/50 p-6">
-                <div className="flex flex-wrap items-start justify-between gap-4">
-                  <div>
-                    <h3 className="text-xl font-semibold text-white">MSci in Physics</h3>
-                    <p className="text-white/70">University College London</p>
-                  </div>
-                  <span className="rounded-full bg-purple-900/30 px-3 py-1 text-sm text-white/90">2004-2008</span>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>

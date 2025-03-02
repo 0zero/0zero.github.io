@@ -15,6 +15,9 @@ export default function Footer() {
               <Link href="/" className="hover:text-white">
                 Home
               </Link>
+              <Link href="/resume" className="hover:text-white">
+                Resume
+              </Link>
               <Link href="/tech" className="hover:text-white">
                 Tech
               </Link>
