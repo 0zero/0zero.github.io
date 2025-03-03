@@ -24,9 +24,12 @@ export default function Home() {
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Button asChild variant="default">
-              <Link href="/tech">
-                Tech <ArrowRight className="ml-2 h-4 w-4" />
+              <Link href="/resume">
+                Resume <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
+            </Button>
+            <Button asChild variant="outline" className="bg-black/50 text-white hover:bg-black/70">
+              <Link href="/tech">Tech Projects</Link>
             </Button>
             <Button asChild variant="outline" className="bg-black/50 text-white hover:bg-black/70">
               <Link href="/astrophysics">Academic Background</Link>
@@ -43,14 +46,12 @@ export default function Home() {
             <div className="mt-6 grid gap-8 md:grid-cols-2">
               <div>
                 <p className="text-lg text-white/70">
-                  I'm a software and data engineer with a passion for solving complex problems. My background in
-                  astrophysics informs my approach to data science, allowing me to bring unique perspectives to
+                  I'm a software and data specialist with a passion for solving complex problems. My background in
+                  astrophysics informs my approach to dealing with data, allowing me to bring unique perspectives to
                   technical challenges.
                 </p>
                 <p className="mt-4 text-lg text-white/70">
-                  With experience spanning academic research and industry applications, I specialize in building
-                  scalable data pipelines, machine learning models, and interactive visualizations that make complex
-                  data accessible.
+                  
                 </p>
               </div>
               <div>
@@ -71,36 +72,15 @@ export default function Home() {
                   <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Git</Badge>
                   <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Docker</Badge>
                   <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Kubernetes</Badge>
+                  <Badge className="bg-purple-900/60 hover:bg-purple-900/80">High Performance Computing</Badge>
+                  <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Data Visualisation</Badge>
+                  <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Machine Learning</Badge>
+                  <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Artificial Intelligence</Badge>
+                  <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Statistics</Badge>
+                  <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Business Intelligence</Badge>
+                  <Badge className="bg-purple-900/60 hover:bg-purple-900/80">Computational Physics</Badge>
 
-                </div>
-              </div>
-            </div>
-            <div className="mt-10 flex justify-center">
-              <div className="grid max-w-3xl grid-cols-1 gap-8 md:grid-cols-2">
-                <div className="group relative overflow-hidden rounded-lg bg-black/50 p-6 transition-all hover:bg-black/70">
-                  <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-purple-900/20"></div>
-                  <h3 className="relative z-10 text-xl font-semibold text-white">Tech Career</h3>
-                  <p className="relative z-10 mt-2 text-white/70">
-                    Explore my projects and professional experience in software and data engineering, data science and
-                    AI.
-                  </p>
-                  <div className="relative z-10 mt-4">
-                    <Button asChild variant="default" size="sm">
-                      <Link href="/tech">View Tech Projects</Link>
-                    </Button>
-                  </div>
-                </div>
-                <div className="group relative overflow-hidden rounded-lg bg-black/50 p-6 transition-all hover:bg-black/70">
-                  <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-purple-900/20"></div>
-                  <h3 className="relative z-10 text-xl font-semibold text-white">Academic Background</h3>
-                  <p className="relative z-10 mt-2 text-white/70">
-                    Learn about my education, research, and contributions in the field of astrophysics.
-                  </p>
-                  <div className="relative z-10 mt-4">
-                    <Button asChild variant="default" size="sm">
-                      <Link href="/astrophysics">View Academic Work</Link>
-                    </Button>
-                  </div>
+
                 </div>
               </div>
             </div>

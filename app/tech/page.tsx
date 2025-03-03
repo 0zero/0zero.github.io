@@ -20,7 +20,7 @@ export default function TechPage() {
               Tech Projects
             </h1>
             <p className="mt-4 text-lg text-white/70 md:text-xl">
-              A showcase of my professional work in software, data, and AI.
+              Showcasing some of my professional work in software, data, and AI.
             </p>
           </div>
         </div>
@@ -36,37 +36,37 @@ export default function TechPage() {
             <ProjectCard
               title="Rapid Engineering"
               description="Built a suite of tools for rapid prototyping and design of engineering and simulation systems."
-              tags={["Kafka", "Spark", "AWS", "Big Data"]}
+              tags={["Python", "Rust", "Elm", "AWS", "MongoDB", "Docker", "GitLab CI/CD", "Kubernetes", "Postgres", "Airflow", "REST", "protobuf", "GraphQL", "HPC"]}
               imageUrl="/placeholder.svg?height=400&width=600"
             />
             <ProjectCard
               title="Data Platform"
               description="Designed and built an internal data platform for real-time analytics and reporting for a shipping business."
-              tags={["Redis", "Go", "Distributed Systems", "Performance"]}
+              tags={["Python", "Postgres", "GCP", "dbt", "Airbyte", "Dagster", "Metabase", "BigQuery", "GitHub Actions", "ELT"]}
               imageUrl="/placeholder.svg?height=400&width=600"
             />
             <ProjectCard
               title="Carbon, Sustainability, and ESG"
               description="Built a suite of tools for analysing carbon emissions, energy prices, and sustainability metrics."
-              tags={["DevOps", "Docker", "Kubernetes", "GitOps"]}
+              tags={["Python", "Plotly Dash", "Docker", "Postgres", "REST", "LLMs"]}
               imageUrl="/placeholder.svg?height=400&width=600"
             />
             <ProjectCard
               title="NLP for Disaster Response"
               description=""
-              tags={["Kafka", "Spark", "AWS", "Big Data"]}
+              tags={["Python", "ETL", "Flask", "NLP", "NLTK", "SciKit-Learn", "Plotly"]}
               imageUrl="/placeholder.svg?height=400&width=600"
             />
             <ProjectCard
               title="Agentic Product/Project Planning"
               description=""
-              tags={["Redis", "Go", "Distributed Systems", "Performance"]}
+              tags={["Python", "LLMs", "crewAI"]}
               imageUrl="/placeholder.svg?height=400&width=600"
             />
             <ProjectCard
               title="Deep Learning for Image Recognition"
-              description="Built a suite of tools for analysing carbon emissions, energy prices, and sustainability metrics."
-              tags={["DevOps", "Docker", "Kubernetes", "GitOps"]}
+              description=""
+              tags={["Python", "Keras", "CNNs", "Flask"]}
               imageUrl="/placeholder.svg?height=400&width=600"
             />            
           </div>
