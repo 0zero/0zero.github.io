@@ -30,7 +30,7 @@ export default function Footer() {
             </nav>
           </div>
           <div className="flex gap-4">
-            <Link href="mailto:contact@johndoe.com" aria-label="Email" className="text-white/70 hover:text-white">
+            <Link href="mailto:japheth@japhethyates.xyz" aria-label="Email" className="text-white/70 hover:text-white">
               <Mail className="h-5 w-5" />
             </Link>
             <Link
