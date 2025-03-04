@@ -42,7 +42,7 @@ export default function ContactPage() {
                   <Mail className="mr-4 h-6 w-6 text-purple-400" />
                   <div>
                     <h3 className="text-lg font-medium text-white">Email</h3>
-                    <p className="mt-1 text-white/70">contact@johndoe.com</p>
+                    <p className="mt-1 text-white/70">japheth@japhethyates.xyz</p>
                   </div>
                 </div>
 
